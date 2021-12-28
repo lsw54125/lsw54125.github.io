@@ -5,6 +5,7 @@
 <!--    <router-link to="/about" tag="button" replace >关于</router-link>-->
     <button @click="homeClick">首页</button>
     <button @click="aboutClick">关于</button>
+    <button @click="planeClick">Plane</button>
     <router-view/>
   </div>
 </template>
@@ -18,6 +19,9 @@ export default {
     },
     aboutClick() {
       this.$router.replace('/about')
+    },
+    planeClick(){
+
     }
   }
 }
