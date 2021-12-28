@@ -6,6 +6,7 @@
     <button @click="homeClick">首页</button>
     <button @click="aboutClick">关于</button>
     <button @click="planeClick">Plane</button>
+<!--    <a href = "../static/html/plane.html">Plane</a>-->
     <router-view/>
   </div>
 </template>
@@ -20,12 +21,16 @@ export default {
     aboutClick() {
       this.$router.replace('/about')
     },
-    planeClick(){
-
-    }
+    planeClick() {
+      this.$router.replace('/plane')
+    },
   }
 }
 </script>
 
 <style>
+button{
+  height: 25px;
+
+}
 </style>
