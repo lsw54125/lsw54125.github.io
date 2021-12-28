@@ -1,1 +1,0 @@
-{"version":3,"sources":["app.fac3790db72d97356cebd15fc3b6bd16.css"],"names":[],"mappings":"AACA,OACE,WACF,CAwCA,wBACE,WAAY,CACZ,YACF","file":"app.fac3790db72d97356cebd15fc3b6bd16.css","sourcesContent":["\nbutton{\n  height: 25px;\n}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\niframe[data-v-12f7310e]{\n  width: 320px;\n  height: 568px;\n}\n"]}
