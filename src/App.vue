@@ -6,7 +6,9 @@
     <button @click="homeClick">首页</button>
     <button @click="aboutClick">关于</button>
     <button @click="planeClick">Plane</button>
-<!--    <a href = "../static/html/plane.html">Plane</a>-->
+    <router-link v-bind:to="'/user/'+userId" tag="button" replace >用户</router-link>
+
+    <!--    <a href = "../static/html/plane.html">Plane</a>-->
     <router-view/>
   </div>
 </template>
@@ -14,6 +16,11 @@
 <script>
 export default {
   name: 'App',
+  data() {
+    return {
+      userId: 'lisi',
+    }
+  },
   methods:{
     homeClick() {
       this.$router.replace('/home')

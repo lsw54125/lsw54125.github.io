@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from '../components/Home'
 import About from "../components/About";
 import Plane from "../components/Plane";
+import User from "../components/User";
 Vue.use(Router)
 
 export default new Router({
@@ -27,6 +28,11 @@ export default new Router({
       path: '/plane',
       name: 'Plane',
       component: Plane
+    },
+    {
+      path: '/user/:userId',
+      name: 'User',
+      component: User
     },
   ]
 })
